@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Responsive Navber</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		.navbar{
+			background: #ccc;
+			overflow: hidden;
+		}
+		.navbar a{
+			display: block;
+			float: left;
+			color:blacks;
+			padding:14px 16px;
+			text-decoration:none;
+
+		}
+		.navbar a:hover{
+			background-color:brown;
+			color:ghostwhite;
+		}
+
+	@media all and (max-width:600px){
+		.navbar a{
+			float:none;
+		}
+	}
+		</style>
+	
+</head>
+<body>
+      <nav class="navbar">
+      	<a herf="#">Home</a>
+      	<a herf="#">Gallery</a>
+      	<a herf="#">News</a>
+      </nav>
+      
+</body>
+</html>
